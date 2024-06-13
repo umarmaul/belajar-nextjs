@@ -1,17 +1,9 @@
-"use client";
-
-import { useEffect } from "react";
+import Heading from "@/components/Heading";
 
 export default function Home() {
-	useEffect(() => {
-		window.alert("Hello World");
-	}, []);
-
 	return (
 		<>
-			<div>
-				<h1>Home Page</h1>
-			</div>
+			<Heading>Home Page</Heading>
 			<p>Next.js Fundamental</p>
 		</>
 	);

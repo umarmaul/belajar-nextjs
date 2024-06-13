@@ -1,8 +1,8 @@
 export default function BlogLayout({ children }) {
 	return (
-		<div style={{ displayL: "flex" }}>
-			<div style={{ border: "1px solid black" }}>Sidebar</div>
-			<div>{children}</div>
+		<div className="flex">
+			<div>[Sidebar]</div>
+			<div className="px-4">{children}</div>
 		</div>
 	);
 }
