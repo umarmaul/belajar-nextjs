@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Hidup Bahagia ala Stoik",
+        "slug": "hidup-bahagia-ala-stoik",
+        "description": "Tampaknya penulis kita memiliki tiga orang musuh yang terkenal pada zamannya. Posisi pertama adalah Caligula,",
+        "publishedAt": "2024-06-14T06:47:34.210Z",
+        "author": "Admin",
+        "body": "Selanjutnya adalah Fabian, yang membebani dirinya (Seneca) karena terlalu berani dengan kepiawaian bicara masa terdahulu, dan kelemahan ini mengacu pada dirinya sendiri. Begitu juga dengan keanehan dan tingkahnya dalam pengungkapannya.",
+        "image": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "url": "/uploads/k6d3pmdm8syrrsyhp9ja4r_e599436260.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Stoik: Apa dan Bagaimana",
+        "slug": "stoik-apa-dan-bagaimana",
+        "description": "Bagi anda yang menyukai filsafat dan sedang mencari buku mengenai stoikisme atau stoik",
+        "publishedAt": "2024-06-14T06:46:21.234Z",
+        "author": "Admin",
+        "body": "Bagaimana ajaran kuno Stoik bisa membantu kita bertumbuh pada masa modern? Setiap kali merasa khawatir tentang apa yang akan kita makan, bagaimana kita bisa mencintai seseorang, atau bagaimana cara mencapai kebahagiaan, sebenarnya kita sedang memikirkan cara menjalani hidup yang baik.",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "url": "/uploads/img20220902_15481892_78ff97b952.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Belajar Strapi",
+        "slug": "belajar-strapi",
+        "description": "Konten strapi",
+        "publishedAt": "2024-06-14T06:35:49.994Z",
+        "author": "Admin",
+        "body": "Di sini adalah deskripsi dengan huruf **Bold**",
+        "image": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "url": "/uploads/Mewarnai_Umar_4bfab427df.png"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 3,
+      "pageCount": 1,
+      "total": 3
+    }
+  }
+}
