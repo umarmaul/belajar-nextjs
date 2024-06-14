@@ -1,5 +1,11 @@
 import Heading from "@/components/Heading";
+import ShareLinkButton from "@/components/ShareLinkButton";
 import { getPost } from "@/lib/post";
+
+export async function generateStaticParams() {
+	const slugs = await getSlugs();
+	return slugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({ params: { slug } }) {
 	const post = await getPost(slug);
@@ -12,9 +18,12 @@ export default async function BlogPage({ params: { slug } }) {
 	return (
 		<div>
 			<Heading>{title}</Heading>
-			<p className="pb-2 text-sm italic">
-				{date} by {author}
-			</p>
+			<div className="flex items-baseline gap-3 pb-2">
+				<p className="pb-2 text-sm italic">
+					{date} by {author}
+				</p>
+				<ShareLinkButton />
+			</div>
 			<img
 				src="/images/image-1.jpg"
 				alt={image}
