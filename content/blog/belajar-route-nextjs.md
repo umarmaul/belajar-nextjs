@@ -1,5 +1,6 @@
 ---
 title: "Belajar route Next.js"
+description: "Belajar route Next.js Fundamental Panjang"
 image: "/images/image-2.jpg"
 date: "2023-01-13"
 author: "Admin"

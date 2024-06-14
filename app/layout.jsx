@@ -1,18 +1,23 @@
 import Navbar from "../components/Navbar";
 import "./globals.css";
 
+export const metadata = {
+	title: {
+		default: "Next.js Dasar",
+		template: "%s | Next.js Dasar",
+	},
+	description: "Kumpulan belajar next.js dasar",
+};
+
 export default function Layout({ children }) {
 	return (
-		<html lang="en">
-			<head>
-				<title>Belajar Next.js Fundamental</title>
-			</head>
-			<body className="bg-gray-100 flex flex-col px-4 py-4 min-h-screen">
+		<html lang="en" className={"font-poppins"}>
+			<body className="flex flex-col min-h-screen px-4 py-4 bg-gray-100">
 				<header>
 					<Navbar />
 				</header>
 				<main className="py-3 grow">{children}</main>
-				<footer className="border-t py-3 text-center text-xs">
+				<footer className="py-3 text-xs text-center border-t">
 					[footer]
 				</footer>
 			</body>

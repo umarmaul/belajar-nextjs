@@ -1,5 +1,6 @@
 ---
 title: "Belajar Next.js"
+description: "Belajar Next.js Fundamental Panjang"
 image: "/images/image-1.jpg"
 date: "2023-01-13"
 author: "Admin"
