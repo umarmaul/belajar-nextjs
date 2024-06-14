@@ -25,7 +25,7 @@ export default async function BlogPage({ params: { slug } }) {
 				<ShareLinkButton />
 			</div>
 			<img
-				src="/images/image-1.jpg"
+				src={image}
 				alt={image}
 				width={640}
 				height={360}
